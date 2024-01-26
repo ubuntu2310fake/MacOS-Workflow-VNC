@@ -28,8 +28,8 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 #install ngrok
 brew install ngrok
 brew install --cask anydesk
-curl -o TeamViewer.pkg https://download.teamviewer.com/download/TeamViewer.dmg && \
-hdiutil attach TeamViewer.dmg && \
+curl -o /tmp/TeamViewer.dmg https://download.teamviewer.com/download/TeamViewer.dmg && \
+hdiutil attach /tmp/TeamViewer.dmg && \
 sudo installer -pkg /Volumes/TeamViewer/Install\ TeamViewer.app/Contents/Resources/InstallTeamViewer.pkg -target / && \
 hdiutil detach /Volumes/TeamViewer && \
 
