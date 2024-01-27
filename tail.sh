@@ -27,8 +27,8 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 
 #install tail
 brew install tailscale
-brew services start tailscale
 
 #configuretail
+brew services start tailscale
 nohup tailscaled --state=tailscaled.state &>/dev/null &
 tailscale up
