@@ -26,7 +26,7 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate
 
 #install tail
-curl -fsSL https://tailscale.com/install.sh | sh
+brew install tailscale
 
 #configuretail
 nohup tailscaled --state=tailscaled.state &>/dev/null &
