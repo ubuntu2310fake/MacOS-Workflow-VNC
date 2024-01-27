@@ -1,4 +1,4 @@
-name: Mac. After you connect with vnc you can open anydesk or teamviewer has preinstall and connect with it for low latency
+name: Mac. After you connect with vnc you can open anydesk or teamviewer has preinstall and connect with it for low latency tailscale
 on: 
   workflow_dispatch:
 defaults:
