@@ -34,4 +34,4 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 brew install --cask tailscale
 
 # Move and start Tailscale
-tailscale up
+sudo tailscale up --advertise-routes=10.0.0.0/8,192.168.0.0/16
