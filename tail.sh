@@ -31,9 +31,7 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate
 
 # Install Tailscale
-curl -O https://pkgs.tailscale.com/stable/Tailscale-1.58.2-macos.zip
-unzip Tailscale-1.58.2-macos.zip
+brew install --cask tailscale
 
 # Move and start Tailscale
-sudo mv Tailscale.app /Applications/
-sudo /Applications/Tailscale.app/Contents/MacOS/Tailscale up
+tailscale up
