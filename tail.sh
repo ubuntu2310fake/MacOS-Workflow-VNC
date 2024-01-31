@@ -32,6 +32,7 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 
 # Install Tailscale
 brew install --cask tailscale
+brew install anydesk
 
 # Move and start Tailscale
 sudo tailscale up
